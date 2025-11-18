@@ -1,13 +1,11 @@
 
 import './App.css'
-import ListGroup from './component/ListGroup'
-import Message from './message'
+import Header from './component/Header/header'
 
 function App() {
   return (
     <>
-      <Message />
-      <ListGroup/>
+      <Header />
     </>
   )
 }
