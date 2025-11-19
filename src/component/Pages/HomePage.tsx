@@ -12,9 +12,9 @@ function HomePage() {
         </div>
         <div className="section__text">
             <p className="section__text-p1">Hi, I'm </p>
-            <h1>User Name</h1>
-            <h1>Frontend Developer</h1>
-            <p>
+            <h1 className='title'>User Name</h1>
+            <p className="section__text-p1">Frontend Developer</p>
+            <p className="section__text-p3">
               Welcome to my personal website! I'm a frontend developer with a passion for creating beautiful and functional web applications. 
               With experience in React, TypeScript, and CSS, I enjoy bringing designs to life and crafting seamless user experiences.
             </p>
