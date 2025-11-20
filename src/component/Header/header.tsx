@@ -1,18 +1,18 @@
-import './header.css'
-import { useState, useEffect } from 'react'
+import './header.css';
+import { useState, useEffect } from 'react';
 
 function Header() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     // prevent body scroll when mobile menu is open
-    document.body.style.overflow = open ? 'hidden' : ''
+    document.body.style.overflow = open ? 'hidden' : '';
     return () => {
-      document.body.style.overflow = ''
-    }
-  }, [open])
+      document.body.style.overflow = '';
+    };
+  }, [open]);
 
-  const handleLinkClick = () => setOpen(false)
+  const handleLinkClick = () => setOpen(false);
 
   return (
     <nav className="desktop-nav">
@@ -31,14 +31,30 @@ function Header() {
 
       <div className={`nav-container ${open ? 'open' : ''}`}>
         <ul className="nav-links">
-          <li><a href="#about" onClick={handleLinkClick}>About</a></li>
-          <li><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
-          <li><a href="#experience" onClick={handleLinkClick}>Experience</a></li>
-          <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
+          <li>
+            <a href="#about" onClick={handleLinkClick}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onClick={handleLinkClick}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#experience" onClick={handleLinkClick}>
+              Experience
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={handleLinkClick}>
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
-  )
+  );
 }
 
-export default Header
+export default Header;
