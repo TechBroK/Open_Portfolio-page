@@ -195,17 +195,292 @@ function HomePage() {
                 ipsa voluptatibus aut iste quidem dolorem odio maiores magni in omnis consectetur
                 corporis sit sapiente deleniti ipsam rerum soluta, error quo magnam. Voluptatem
                 eligendi minima incidunt quae culpa in eos reiciendis perspiciatis nesciunt, placeat
-                maiores! Eaque alias dicta delectus quos iusto asperiores nisi sint commodi
-                suscipit, impedit unde explicabo quibusdam modi voluptates harum at beatae illo
-                mollitia officia reiciendis fugit similique exercitationem? Animi, quia, magni eum
-                ducimus nisi id cumque dolorum hic aut veniam nobis sunt iusto quod! Eum.
+                maiores! Eaque alias dicta delectus quos iusto asperiores nisi sint .
               </p>
             </div>
           </div>
         </div>
-        <img src={arrow} alt="point down" className="arrow" />
+        <a
+          href="#experience"
+          aria-label="Scroll down"
+          className="scroll-down-btn"
+          style={{ display: 'inline-block' }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            className="arrow"
+          >
+            <path d="M12 16.5a1 1 0 0 1-.71-.29l-7-7a1 1 0 0 1 1.42-1.42L12 13.79l6.29-6.29a1 1 0 0 1 1.42 1.42l-7 7a1 1 0 0 1-.71.29z" />
+          </svg>
+        </a>
       </section>
-      <section id="experience"></section>
+      <section id="experience">
+        <p className="section__text-p1">Explore Me....</p>
+        <h1 className="title">Experience</h1>
+        <div className="experience-details-container">
+          <div className="about-container">
+            <div className="details-container">
+              <h2 className="experience-sub-title">Frontend Developer at XYZ Company</h2>
+              <div className="article-container">
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project A</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project B</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project C</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project D</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project E</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project F</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div className="details-container">
+              <h2 className="experience-sub-title">Other Developer at XYZ Company</h2>
+              <div className="article-container">
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project A</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project B</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project C</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project D</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project E</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
+                  </svg>
+                  <div>
+                    <h3>Project F</h3>
+                    <p>
+                      Developed a responsive web application using React and TypeScript,
+                      enhancing user engagement by 30%.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          href="#next-section"
+          aria-label="Scroll down"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            className="arrow"
+          >
+            <path d="M12 16.5a1 1 0 0 1-.71-.29l-7-7a1 1 0 0 1 1.42-1.42L12 13.79l6.29-6.29a1 1 0 0 1 1.42 1.42l-7 7a1 1 0 0 1-.71.29z" />
+          </svg>
+        </a>
+      </section>
     </>
   );
 }
