@@ -1,7 +1,6 @@
 import profile from '../../assets/images (2).jpeg';
 import about from '../../assets/images.jpeg';
 import cvFile from '../../assets/Profile.pdf';
-import arrow from '../../assets/react.svg';
 import './homepage.css';
 import './mediaQuery.css';
 
@@ -234,7 +233,7 @@ function HomePage() {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    aria-hidden="true"
+                    aria-hidden="true"  
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
