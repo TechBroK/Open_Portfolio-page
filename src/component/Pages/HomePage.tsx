@@ -1,6 +1,7 @@
 import profile from '../../assets/images (2).jpeg';
 import about from '../../assets/images.jpeg';
 import cvFile from '../../assets/Profile.pdf';
+
 import './homepage.css';
 import './mediaQuery.css';
 
@@ -155,6 +156,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 1.5A6.5 6.5 0 1 0 18.5 8 6.51 6.51 0 0 0 12 1.5Zm0 11A4.5 4.5 0 1 1 16.5 8 4.5 4.5 0 0 1 12 12.5Zm5.12 1.32L14.5 19v3l3.5-1 3.5 1v-3Zm-10.24 0L2 19v3l3.5-1 3.5 1v-3Z" />
                   </svg>
@@ -178,6 +180,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 1.5A6.5 6.5 0 1 0 18.5 8 6.51 6.51 0 0 0 12 1.5Zm0 11A4.5 4.5 0 1 1 16.5 8 4.5 4.5 0 0 1 12 12.5Zm5.12 1.32L14.5 19v3l3.5-1 3.5 1v-3Zm-10.24 0L2 19v3l3.5-1 3.5 1v-3Z" />
                   </svg>
@@ -222,7 +225,7 @@ function HomePage() {
         <p className="section__text-p1">Explore Me....</p>
         <h1 className="title">Experience</h1>
         <div className="experience-details-container">
-          <div className="about-container">
+          <div className="about-containers">
             <div className="details-container">
               <h2 className="experience-sub-title">Frontend Developer at XYZ Company</h2>
               <div className="article-container">
@@ -233,7 +236,8 @@ function HomePage() {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    aria-hidden="true"  
+                    aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -253,6 +257,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -272,6 +277,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -291,6 +297,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -310,6 +317,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -329,6 +337,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -353,6 +362,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -372,6 +382,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -391,6 +402,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -410,6 +422,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -429,6 +442,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
@@ -448,6 +462,7 @@ function HomePage() {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     aria-hidden="true"
+                    className='icon'
                   >
                     <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm-1 14-4-4 1.41-1.41L11 12.17l4.59-4.59L17 9l-6 6Z" />
                   </svg>
