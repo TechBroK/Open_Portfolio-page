@@ -1,6 +1,10 @@
 import profile from '../../assets/images (2).jpeg';
 import about from '../../assets/images.jpeg';
 import cvFile from '../../assets/Profile.pdf';
+import profile1 from '../../assets/images (1).jpeg';
+import profile2 from '../../assets/images (3).jpeg';
+import profile3 from '../../assets/images (4).jpeg';
+import profile4 from '../../assets/images (5).jpeg';
 
 import './homepage.css';
 import './mediaQuery.css';
@@ -133,6 +137,7 @@ function HomePage() {
           </div>
         </div>
       </section>
+
       <section id="about">
         <p className="section__text-p1">Get To Know More</p>
         <h1 className="title">About Me</h1>
@@ -151,7 +156,7 @@ function HomePage() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -175,7 +180,7 @@ function HomePage() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -221,6 +226,7 @@ function HomePage() {
           </svg>
         </a>
       </section>
+
       <section id="experience">
         <p className="section__text-p1">Explore Me....</p>
         <h1 className="title">Experience</h1>
@@ -232,7 +238,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -272,7 +278,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -292,7 +298,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -312,7 +318,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -332,7 +338,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -357,7 +363,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -377,7 +383,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -397,7 +403,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -417,7 +423,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -437,7 +443,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -457,7 +463,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
+                    width="auto"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -494,6 +500,75 @@ function HomePage() {
             <path d="M12 16.5a1 1 0 0 1-.71-.29l-7-7a1 1 0 0 1 1.42-1.42L12 13.79l6.29-6.29a1 1 0 0 1 1.42 1.42l-7 7a1 1 0 0 1-.71.29z" />
           </svg>
         </a>
+      </section>
+
+      <section id="projects">
+        <p className='section__text-p1'>Browse My Recent..</p>
+        <h1 className='title'>Projects</h1>
+        <div className="experience-details-container">
+         <div className="details-container color-container">
+           <div className="article-container">
+            <img src={profile1} alt='project image' className='project-img'/>
+           </div>
+           <h2 className='ecperience-sub-title project-title'>Project One</h2>
+           <div className="btn-container">
+            <button className='btn btn-color-2 project-btn' type="button">
+              GitHub
+            </button>
+
+            <button className='btn btn-color-2 project-btn' type="button">
+               Live Demo
+            </button>
+           </div>
+         </div>
+         <div className="details-container color-container">
+           <div className="article-container">
+            <img src={profile2} alt='project image' className='project-img'/>
+           </div>
+           <h2 className='ecperience-sub-title project-title'>Project One</h2>
+           <div className="btn-container">
+            <button className='btn btn-color-2 project-btn' type="button">
+              GitHub
+            </button>
+
+            <button className='btn btn-color-2 project-btn' type="button">
+               Live Demo
+            </button>
+           </div>
+         </div>
+
+         <div className="details-container color-container">
+           <div className="article-container">
+            <img src={profile3} alt='project image' className='project-img'/>
+           </div>
+           <h2 className='ecperience-sub-title project-title'>Project One</h2>
+           <div className="btn-container">
+            <button className='btn btn-color-2 project-btn' type="button">
+              GitHub
+            </button>
+
+            <button className='btn btn-color-2 project-btn' type="button">
+               Live Demo
+            </button>
+           </div>
+         </div>
+
+         <div className="details-container color-container">
+           <div className="article-container">
+            <img src={profile4} alt='project image' className='project-img'/>
+           </div>
+           <h2 className='ecperience-sub-title project-title'>Project One</h2>
+           <div className="btn-container">
+            <button className='btn btn-color-2 project-btn' type="button">
+              GitHub
+            </button>
+
+            <button className='btn btn-color-2 project-btn' type="button">
+               Live Demo
+            </button>
+           </div>
+         </div>
+        </div>
       </section>
     </>
   );
