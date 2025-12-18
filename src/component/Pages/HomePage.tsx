@@ -156,7 +156,7 @@ function HomePage() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -180,7 +180,7 @@ function HomePage() {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -238,7 +238,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -278,7 +278,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -298,7 +298,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -318,7 +318,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -338,7 +338,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -363,7 +363,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -383,7 +383,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -403,7 +403,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -423,7 +423,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -443,7 +443,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -463,7 +463,7 @@ function HomePage() {
                 <article>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="auto"
+                    width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -485,7 +485,7 @@ function HomePage() {
           </div>
         </div>
         <a
-          href="#next-section"
+          href="#projects"
           aria-label="Scroll down"
         >
           <svg
@@ -506,7 +506,8 @@ function HomePage() {
         <p className='section__text-p1'>Browse My Recent..</p>
         <h1 className='title'>Projects</h1>
         <div className="experience-details-container">
-         <div className="details-container color-container">
+         <div className="about-containers keeper">
+          <div className="details-container color-container">
            <div className="article-container">
             <img src={profile1} alt='project image' className='project-img'/>
            </div>
@@ -568,6 +569,85 @@ function HomePage() {
             </button>
            </div>
          </div>
+         </div>
+        </div>
+        <a
+          href="#projects"
+          aria-label="Scroll down"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            className="arrow"
+          >
+            <path d="M12 16.5a1 1 0 0 1-.71-.29l-7-7a1 1 0 0 1 1.42-1.42L12 13.79l6.29-6.29a1 1 0 0 1 1.42 1.42l-7 7a1 1 0 0 1-.71.29z" />
+          </svg>
+        </a>
+      </section>
+
+      <section id="contact">
+        <p className='section__text-p1'>Get In Touch</p>
+        <h1 className='title'>Contact Me</h1>
+        <p className='section__text-p3 contact-subtitle'>If the projects, about, or experience section sparked anything—collaboration, feedback, or just a quick hello—drop me a note.</p>
+        <div className="contact-grid">
+          <div className="contact-info-panel">
+            <div className="contact-info-upper-container">
+              <div className="contact-info-container">
+                <img src={profile} alt="contact me" className="contact-pic" />
+              </div>
+              <div className="contact-info-copy">
+                <p>I'm currently open to mentoring junior teams, contributing to thoughtful projects, or exploring freelance opportunities that align with the flow of this site.</p>
+              </div>
+            </div>
+            <div className="contact-cards">
+              <div className="contact-card">
+                <span className="contact-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="presentation">
+                    <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24 11.36 11.36 0 003.58.57 1 1 0 011 1v3.49a1 1 0 01-1 1A16 16 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.24 1.05z" />
+                  </svg>
+                </span>
+                <div>
+                  <p className="contact-card-label">Call Me</p>
+                  <a href="tel:+123456789" className="contact-card-value">+1 (234) 567-8901</a>
+                </div>
+              </div>
+              <div className="contact-card">
+                <span className="contact-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="presentation">
+                    <path d="M21 4H3a1 1 0 00-1 1v14a1 1 0 001 1h18a1 1 0 001-1V5a1 1 0 00-1-1zm-1 2.2l-8 5.1-8-5.1V6l8 5.11L20 6z" />
+                  </svg>
+                </span>
+                <div>
+                  <p className="contact-card-label">Email</p>
+                  <a href="mailto:hello@example.com" className="contact-card-value">hello@example.com</a>
+                </div>
+              </div>
+              <div className="contact-card">
+                <span className="contact-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="presentation">
+                    <path d="M12 2a7 7 0 00-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 00-7-7zm0 9.5a2.5 2.5 0 112.5-2.5A2.5 2.5 0 0112 11.5z" />
+                  </svg>
+                </span>
+                <div>
+                  <p className="contact-card-label">Visit</p>
+                  <p className="contact-card-value">Remote, available worldwide</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="contact-form-card">
+            <p className='section__text-p3 contact-form-copy'>Share your idea, the timeline, or anything you want me to know before we chat.</p>
+            <form className='contact-form'>
+              <input type="text" name="name" placeholder='Your Full Name' required className='contact-input'/>
+              <input type="email" name="email" placeholder='Your Email' required className='contact-input'/>
+              <textarea name="message" rows={7} placeholder='Your Message' required className='contact-input'/>
+              <button type="submit" className='btn btn-color-1 contact-btn'>Send Message</button>
+            </form>
+          </div>
         </div>
       </section>
     </>
